@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent {label 'epkf'}
   stages {
     stage('build') {
        steps {
