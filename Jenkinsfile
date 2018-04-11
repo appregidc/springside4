@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
        steps {
-            echo 'hello world' }
+            echo 'hello world' 
              }
     }
     stage('syncbuild') {
@@ -16,7 +16,7 @@ pipeline {
         echo 'done'
        }
     }
-  }
+	}
   environment {
     env1 = 'dev'
   }
